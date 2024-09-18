@@ -1,0 +1,77 @@
+<test>
+<user>
+	<fio>Иванов Иван</fio>
+	<email> new@mail.ru</email>
+    <password>new </password>
+    <birthday> 1990-01-02</birthday>
+
+    <purchase>
+        <purchase_date> 2004-04-25</purchase_date>
+        <total_price>278374</total_price>
+
+        <ordercomposition>
+            <positions_count>3 </positions_count>
+            <summ_price>28373 </summ_price>
+
+            <product>
+                <prod_name>Стол 1</prod_name>
+                <prod_count>20</prod_count>
+                <price> 10000</price>
+                <description>Это некий стол</description>
+            </product>
+
+        </ordercomposition>
+
+        <ordercomposition>
+            <positions_count>2 </positions_count>
+            <summ_price>94732 </summ_price>
+
+            <product>
+                <prod_name>Стул</prod_name>
+                <prod_count>84</prod_count>
+                <price> 1000</price>
+                <description>Это некий стул</description>
+            </product>
+        </ordercomposition>
+    </purchase>
+
+    <purchase>
+        <purchase_date> 2020-09-18</purchase_date>
+        <total_price>38372</total_price>
+
+        <ordercomposition>
+            <positions_count>9</positions_count>
+            <summ_price>20000</summ_price>
+
+            <product>
+                <prod_name>Платье 1</prod_name>
+                <prod_count>4</prod_count>
+                <price>10000</price>
+                <description>Это модное платье</description>
+            </product>
+        </ordercomposition>
+
+        <ordercomposition>
+            <positions_count>5</positions_count>
+            <summ_price>2827 </summ_price>
+
+            <product>
+                <prod_name>Шляпа</prod_name>
+                <prod_count>40</prod_count>
+                <price> 274</price>
+                <description>Это модная шляпа</description>
+            </product>
+
+        </ordercomposition>
+
+    </purchase>
+
+    <phones>
+        <phone_number>89023730329</phone_number>
+    </phones>
+    
+    <phones>
+        <phone_number>89920278130</phone_number>
+    </phones>
+</user>
+</test>

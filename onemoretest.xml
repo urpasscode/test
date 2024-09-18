@@ -1,0 +1,132 @@
+
+<test>
+<user>
+	<fio>Иванов Иван</fio>
+	<email> new@mail.ru</email>
+    <password>new </password>
+    <birthday> 1990-01-02</birthday>
+
+    <purchase>
+        <purchase_date> 2008-12-01</purchase_date>
+        <total_price>29283</total_price>
+
+        <ordercomposition>
+            <positions_count>3</positions_count>
+            <summ_price>8273</summ_price>
+
+            <product>
+                <prod_name>Брюки</prod_name>
+                <prod_count>10</prod_count>
+                <price>10000</price>
+                <description>Это новые брюки</description>
+            </product>
+        </ordercomposition>
+    </purchase>
+
+    <addresses>
+        <address>Некий адрес 1</address>
+    </addresses>
+
+    <phones>
+        <phone_number>89085720618</phone_number>
+    </phones>
+</user>
+
+<user>
+	<fio>Петров Петр </fio>
+	<email> petr@mail.ru</email>
+    <password>petr</password>
+    <birthday> 1982-10-12</birthday>
+
+    <purchase>
+        <purchase_date> 2019-06-18</purchase_date>
+        <total_price>100000</total_price>
+
+        <ordercomposition>
+            <positions_count>2</positions_count>
+            <summ_price>10000</summ_price>
+
+            <product>
+                <prod_name>Телефон</prod_name>
+                <prod_count>19</prod_count>
+                <price>50000</price>
+                <description>Это функциональный телефон</description>
+            </product>
+        </ordercomposition>
+
+        <ordercomposition>
+            <positions_count>5</positions_count>
+            <summ_price>9273</summ_price>
+
+            <product>
+                <prod_name>Брюки</prod_name>
+                <prod_count>9</prod_count>
+                <price>4000</price>
+                <description>Это новые брюки</description>
+            </product>
+        </ordercomposition>
+    </purchase>
+    <purchase>
+        <purchase_date> 2017-09-09</purchase_date>
+        <total_price>28734</total_price>
+
+        <ordercomposition>
+            <positions_count>1</positions_count>
+            <summ_price>3937</summ_price>
+
+            <product>
+                <prod_name>Наушники</prod_name>
+                <prod_count>1</prod_count>
+                <price>3937</price>
+                <description>Это наушники к телефону</description>
+            </product>
+        </ordercomposition>
+
+        <ordercomposition>
+            <positions_count>99</positions_count>
+            <summ_price>9373</summ_price>
+
+            <product>
+                <prod_name>Шар</prod_name>
+                <prod_count>10000</prod_count>
+                <price>94</price>
+                <description>Это воздушный шар</description>
+            </product>
+        </ordercomposition>
+    </purchase>
+
+    <addresses>
+        <address>Некий адрес 2</address>
+    </addresses>
+
+    <addresses>
+        <address>Некий адрес 3</address>
+    </addresses>
+
+</user>
+
+<user>
+	<fio>Павлов Павел</fio>
+	<email> pavel@mail.ru</email>
+    <password>pavel</password>
+    <birthday> 2000-03-03</birthday>
+
+    <purchase>
+        <purchase_date> 2021-05-29</purchase_date>
+        <total_price>494872</total_price>
+
+        <ordercomposition>
+            <positions_count>5</positions_count>
+            <summ_price>92730</summ_price>
+
+            <product>
+                <prod_name>Телевизор</prod_name>
+                <prod_count>2</prod_count>
+                <price>46000</price>
+                <description>Это классный телевизор</description>
+            </product>
+        </ordercomposition>
+    </purchase>
+
+</user>
+</test>
